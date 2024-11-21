@@ -8,7 +8,7 @@ print(Option_A)
 print(Option_B)
 print(Option_C)
 print(Option_D)
-print(Option_E)
+print(Option_E) #The 5 options are displayed, so that the user can see what the 5 are.
 
 Selection = input("Select from any of these 5 options for counting: ") # The program asks the user what option they want to select.
 
