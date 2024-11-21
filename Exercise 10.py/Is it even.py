@@ -1,6 +1,6 @@
-def tell_even_odd(num): # The function made to differentiate between odd and even numbers.
-    if num % 2 == 0:
-        return f"The number {num} is even." 
+def tell_even_odd(num): # Defining the function.
+    if num % 2 == 0:             # The function is made to differentiate between odd and even numbers.
+        return f"The number {num} is even."
     else:
         return f"The number {num} is odd"
     
