@@ -17,7 +17,7 @@ Month = int(input("Enter the month from 1 to 12: "))  # Same as the normal one, 
 if 1 <= Month <= 12:
     if Month == 2:
         Year = (int(input("Input the year: "))) #The user will input the year.
-        def is_leap_year(Year): # Leap year function, as to differentiate between leap year, and non-;eap year, based on what year the user has inputted.
+        def is_leap_year(Year): # Leap year function, as to differentiate between leap year, and non-leap year, based on what year the user has inputted.
             if (Year % 4 == 0  and Year % 100 != 0) or (Year % 400 == 0): 
                 return True
             return False
